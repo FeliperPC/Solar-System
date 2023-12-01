@@ -1,11 +1,14 @@
 type MissionCardProps = {
-  name:string,
-  year:number,
-  country:string,
-  destination:string,
+  mission :{
+    name:string,
+    year:string,
+    country:string,
+    destination:string,
+  }
 };
 
-function MissionCard({ name, year, country, destination }:MissionCardProps) {
+function MissionCard({ mission }:MissionCardProps) {
+  const { name, year, country, destination } = mission;
   return (
     <div className="mission-card">
       <h2 className="mission-planet-name">{name}</h2>
