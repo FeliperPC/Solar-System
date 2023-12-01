@@ -1,7 +1,9 @@
-function Header() {
+import './header.css';
+
+function Header({ image }:{ image:string }) {
   return (
     <header className="header">
-      <h1>Solar System</h1>
+      <img src={ image } alt="Logo" />
     </header>
   );
 }

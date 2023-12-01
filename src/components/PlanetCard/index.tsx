@@ -1,3 +1,5 @@
+import './planetCard.css';
+
 type PlanetCardProps = {
   planetName : string,
   planetImage:string
@@ -5,11 +7,11 @@ type PlanetCardProps = {
 
 function PlanetCard({ planetName, planetImage }: PlanetCardProps) {
   return (
-    <div>
-      <p className="planetName">
+    <div className="planet-card">
+      <img src={ planetImage } alt={ planetName } />
+      <p>
         {planetName}
       </p>
-      <img src={ planetImage } alt={ planetName } />
     </div>
   );
 }
