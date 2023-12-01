@@ -1,4 +1,5 @@
 import Title from '../Title';
+import planetsList from '../data/planets';
 
 function SolarSystem() {
   return (
