@@ -7,20 +7,23 @@
 }
 
 .Mercúrio{
+  display:flex;
   width: 70px;
 }
-
 .Vênus,.Terra{
+  display:flex;
   width: 200px;
 }
-
 .Marte{
+  display:flex;
   width: 130px;
 }
 .Júpiter, .Saturno{
+  display:flex;
   width: 470px;
 }
 .Urano, .Netuno{
+  display:flex;
   width: 260px;
 }
 
