@@ -1,14 +1,17 @@
 import Title from '../Title';
 import MissionCard from '../MissionCard';
 import missionsList from '../../data/missions';
+import './missions.css';
 
 function Missions() {
   return (
-    <div className="missions">
-      <Title headline="Missões" />
-      {missionsList.map((mission) => (
-        <MissionCard key={ mission.name } mission={ mission } />
-      ))}
+    <div className="missions-container">
+      <Title headline="MISSÕES" />
+      <div className="missions">
+        {missionsList.map((mission) => (
+          <MissionCard key={ mission.name } mission={ mission } />
+        ))}
+      </div>
     </div>
   );
 }

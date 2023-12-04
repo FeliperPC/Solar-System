@@ -6,11 +6,11 @@ import logo from './assets/solarSystemLogo.png';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Header image={ logo } />
       <SolarSystem />
       <Missions />
-    </>
+    </div>
   );
 }
 

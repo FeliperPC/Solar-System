@@ -1,0 +1,18 @@
+.missions-container{
+  border-radius: 30px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.90);
+  background-color: #2C2C2C;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 90%;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.missions{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}

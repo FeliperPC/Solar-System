@@ -1,3 +1,7 @@
+import './missionCard.css';
+import { FaCalendarAlt, FaFlag } from 'react-icons/fa';
+import { FaLocationDot } from 'react-icons/fa6';
+
 type MissionCardProps = {
   mission :{
     name:string,
@@ -12,9 +16,21 @@ function MissionCard({ mission }:MissionCardProps) {
   return (
     <div className="mission-card">
       <h2 className="mission-planet-name">{name}</h2>
-      <p className="mission-planet-year">{year}</p>
-      <p className="mission-planet-country">{country}</p>
-      <p className="mission-planet-destination">{destination}</p>
+      <div className="line" />
+      <div className="planet-info">
+        <div className="mission-planet-year">
+          <FaCalendarAlt className="icon" />
+          <p>{year}</p>
+        </div>
+        <div className="mission-planet-country">
+          <FaLocationDot className="icon" />
+          <p>{country}</p>
+        </div>
+        <div className="mission-planet-destination">
+          <FaFlag className="icon" />
+          <p>{destination}</p>
+        </div>
+      </div>
     </div>
   );
 }
