@@ -9,14 +9,12 @@
 .planet-card > img{
   width: 100%;
 }
-
 .Mercúrio{
   scale: 0.25;
 }
 .Vênus, .Terra{
   scale: 0.6;
 }
-
 .Marte{
   scale: 0.39;
 }

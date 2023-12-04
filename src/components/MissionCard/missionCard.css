@@ -33,13 +33,11 @@
   background-color: rgb(202, 197, 197);
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:300px){
   .mission-card{
-    width: 40%;
-    height: 150px;
-    padding: 2;
-    margin: 1px;
-    font-size: 10px;
+    width: 30%;
+    height: 100px;
+    padding: 1;
   }
   .planet-info{
     display: flex;

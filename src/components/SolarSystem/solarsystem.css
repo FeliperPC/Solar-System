@@ -11,3 +11,8 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width:300px){
+  .solar-system{
+    width: 80%;
+  }
+}
