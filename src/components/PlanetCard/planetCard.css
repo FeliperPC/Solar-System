@@ -2,28 +2,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   font-weight: bold;
 }
 
+.planet-card > img{
+  width: 100%;
+}
+
 .Mercúrio{
-  display:flex;
-  width: 70px;
+  scale: 0.25;
 }
-.Vênus,.Terra{
-  display:flex;
-  width: 200px;
+.Vênus, .Terra{
+  scale: 0.6;
 }
+
 .Marte{
-  display:flex;
-  width: 130px;
+  scale: 0.39;
 }
 .Júpiter, .Saturno{
-  display:flex;
-  width: 470px;
+  scale: 1.2;
 }
-.Urano, .Netuno{
-  display:flex;
-  width: 260px;
+.Urano,.Netuno{
+  scale: 0.7;
 }
+
+
 

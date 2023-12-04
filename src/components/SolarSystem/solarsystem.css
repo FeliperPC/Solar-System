@@ -1,10 +1,13 @@
 .planets-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .solar-system{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
+  margin-bottom: 20px;
 }
+
