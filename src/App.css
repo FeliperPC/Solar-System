@@ -7,7 +7,7 @@
 
 @media screen and (max-width:500px) {
   .App{
-    font-size: 6px;
+    font-size: 8px;
     overflow-x: hidden;
   }
 }
