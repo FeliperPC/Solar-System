@@ -26,6 +26,11 @@ npm install
 npm run dev
 ```
 
+## Deploy
+
+Veja a aplicação rodando por aqui :
+https://solar-system-lake.vercel.app/
+
 ## Autor
 
 Felipe Padovani Caetano - Desenvolvedor Front End
